@@ -158,7 +158,7 @@
     <right>3</right>
   </margins>
   <dock>
-    <position>Bottom</position>
+    <position>Top</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -224,32 +224,32 @@
         <to>4</to>
       </action>
     </keybind>
-     <keybind key="W-4">
+    <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-     <keybind key="W-5">
+    <keybind key="W-5">
       <action name="GoToDesktop">
         <to>5</to>
       </action>
     </keybind>
-     <keybind key="W-6">
+    <keybind key="W-6">
       <action name="GoToDesktop">
         <to>6</to>
       </action>
     </keybind>
-     <keybind key="W-7">
+    <keybind key="W-7">
       <action name="GoToDesktop">
         <to>7</to>
       </action>
     </keybind>
-     <keybind key="W-8">
+    <keybind key="W-8">
       <action name="GoToDesktop">
         <to>8</to>
       </action>
     </keybind>
-     <keybind key="W-9">
+    <keybind key="W-9">
       <action name="GoToDesktop">
         <to>9</to>
       </action>
@@ -539,7 +539,7 @@
         <command>~/.config/openbox/scripts/screenshot.sh</command>
       </action>
     </keybind>
-        <!-- Multimedia keys-->
+    <!-- Multimedia keys-->
     <keybind key="XF86AudioStop">
       <action name="Execute">
         <command>mpc stop</command>
@@ -570,7 +570,7 @@
         <command>xbacklight -inc 5</command>
       </action>
     </keybind>
-      <keybind key="XF86AudioRaiseVolume">
+    <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>amixer -q set Master 5%+ unmute</command>
       </action>
@@ -594,7 +594,7 @@
     <keybind key="W-S-r">
       <action name="Reconfigure"/>
     </keybind>
-  <keybind key="W-F1">
+    <keybind key="W-F1">
       <action name="Execute">
         <command>slock</command>
       </action>
@@ -832,7 +832,7 @@
     <!-- time to delay before hiding a submenu when selecting another entry in parent menu
 		if this is a negative value, then the delay is infinite and the
 		submenu will not be hidden until a different submenu is opened -->
-    <showIcons>no</showIcons>
+    <showIcons>Yes</showIcons>
     <!-- controls if icons appear in the client-list-(combined-)menu -->
     <manageDesktops>yes</manageDesktops>
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
