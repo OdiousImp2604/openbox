@@ -29,9 +29,9 @@ Get involved at our forum:
 
 ## Tutorial for Openbox-wm settings:
 
-    Background handled by nitrogen
-    Gtk3 theme handled by obconf
-    Filebrowser = Thunar
-    Default Terminal-Emulator = Termite
-    Text-Editor = xed
-    Application Launcher = Rofi
+  -  Background handled by nitrogen
+  -  Gtk3 theme handled by obconf
+  -  Filebrowser = Thunar
+  -  Default Terminal-Emulator = xfce4-terminal
+  -  Text-Editor = xed
+  -  Application Launcher = Rofi
