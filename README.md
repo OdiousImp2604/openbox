@@ -1,32 +1,33 @@
-Openbox-wm Setup and Theme for EndeavourOS
+# Openbox-wm Setup and Theme for EndeavourOS
 
-Openbox EndeavorOS Community Edition
-To Install manually
+**Openbox EndeavorOS Community Edition**
 
-git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
+## To Install manually
 
-cd openbox
+    git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 
-bash bspwm-install.sh
+    cd openbox
 
-Contained In The Script
+    bash openbox-install.sh
 
-cp -R .config/* ~/.config/
+## Contained In The Script
+
+    cp -R .config/* ~/.config/
     
-cp .gtkrc-2.0 ~/.gtkrc-2.0
+    cp .gtkrc-2.0 ~/.gtkrc-2.0
 
-chmod -R +x ~/.config/openbox/scripts
+    chmod -R +x ~/.config/openbox/scripts
 
-chmod -R +x ~/.config/rofi/scripts
+    chmod -R +x ~/.config/rofi/scripts
     
-sudo yay -Syu --needed --noconfirm - < packages-repository.txt
+    sudo yay -Syu --needed --noconfirm - < packages-repository.txt
 
-dbus-launch dconf load / < xed.dconf
+    dbus-launch dconf load / < xed.dconf
 
 Get involved at our forum:
 
 
-Tutorial for Openbox-wm settings:
+## Tutorial for Openbox-wm settings:
 
     Background handled by nitrogen
     Gtk3 theme handled by obconf
