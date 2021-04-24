@@ -34,10 +34,10 @@ sub_hover_action = 1
 terminal_exec    = xfce4-terminal
 terminal_args    = -e
 
-color_menu_bg    = #2b303b 100
+color_menu_bg    = #383c4a 100
 color_menu_fg    = #8fa1b3 100
 color_norm_bg    = #2b303b 0
 color_norm_fg    = #8fa1b3 100
-color_sel_bg     = #8fa1b3 60
+color_sel_bg     = #5294e2 100
 color_sel_fg     = #2b303b 100
-color_sep_fg     = #8fa1b3 40
+color_sep_fg     = #7c818c 40
