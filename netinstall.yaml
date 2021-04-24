@@ -134,6 +134,7 @@
     - tint2
     - obconf
     - slock
+    - jgmenu
     - network-manager-applet
     - arandr
     - archlinux-xdg-menu
