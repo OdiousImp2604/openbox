@@ -24,7 +24,7 @@
 
     dbus-launch dconf load / < xed.dconf
 
-Get involved at our forum:
+Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
 
 
 ## Tutorial for Openbox-wm settings:
