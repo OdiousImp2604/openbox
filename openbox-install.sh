@@ -3,6 +3,7 @@
 # Easy setup for testing
 
 cp -R .config/* ~/.config/
+cp -R .themes/* ~/.themes/
 cp .profile ~/.profile
 cp .gtkrc-2.0 ~/.gtkrc-2.0
 chmod -R +x ~/.config/openbox/scripts
