@@ -207,7 +207,7 @@ launcher_tooltip = 1
 launcher_item_app = firefox.desktop
 launcher_item_app = /usr/share/applications/thunar.desktop
 launcher_item_app = /usr/share/applications/xed.desktop
-launcher_item_app = /usr/share/applications/termite.desktop
+launcher_item_app = /usr/share/applications/xfce4-terminal.desktop
 launcher_apps_dir = rofi
 
 #-------------------------------------
