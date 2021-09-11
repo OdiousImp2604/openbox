@@ -1,0 +1,5 @@
+#!/bin/bash
+
+msgId="991002"
+
+amixer -q set Master 5%- unmute && volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master)) && dunstify -u low -r "$msgId" "Volume $volume"
