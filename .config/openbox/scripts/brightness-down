@@ -1,0 +1,5 @@
+#!/bin/bash
+
+msgId="991001"
+
+xbacklight -dec 5 && dunstify -u low -r "$msgId" "Brightness $(xbacklight -get | cut -d . -f 1)%"
