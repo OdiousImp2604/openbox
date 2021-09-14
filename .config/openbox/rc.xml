@@ -562,27 +562,27 @@
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -dec 5</command>
+	 <command>~/.config/openbox/scripts/brightness-control down</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight -inc 5</command>
+	 <command>~/.config/openbox/scripts/brightness-control up</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer -q set Master 5%+ unmute</command>
+	 <command>~/.config/openbox/scripts/volume-control up</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer -q set Master 5%- unmute</command>
+	 <command>~/.config/openbox/scripts/volume-control down</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer -D pulse sset Master toggle-mute</command>
+	 <command>~/.config/openbox/scripts/volume-control toggle</command>
       </action>
     </keybind>
     <!-- Reload and Exit keybinds -->
