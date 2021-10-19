@@ -39,7 +39,7 @@
 		the active window is -->
   </placement>
   <theme>
-    <name>Arc-Dark</name>
+    <name>Arc-Darker</name>
     <titleLayout>LIMC</titleLayout>
     <!--
 		Available characters are NDSLIMC, each can occur at most once.
