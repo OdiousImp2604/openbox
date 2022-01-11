@@ -2,6 +2,10 @@
 
 **Openbox EndeavorOS Community Edition**
 
+## The repository has moved. Please open any issues or pull requests over there. 
+
+https://github.com/EndeavourOS-Community-Editions/openbox/
+
 ## To Install manually
 
     git clone https://github.com/OdiousImp2604/openbox.git
